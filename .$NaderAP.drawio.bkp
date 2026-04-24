@@ -108,24 +108,24 @@
         <mxCell id="8sPnJW2xHsQr_f-i5zgN-39" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;spacingLeft=4;spacingRight=2;textShadow=1;fillColor=#CCCCFF;fontColor=#000000;strokeColor=light-dark(#A28700,#B09500);" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Contributing to the solution of the ongoing Energy Crisis&lt;/font&gt;" vertex="1">
           <mxGeometry height="185" width="103" x="660" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="M0hYIVwqM-_pavipD0aI-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Hallo Mensen!" vertex="1">
+        <mxCell id="M0hYIVwqM-_pavipD0aI-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="here&amp;nbsp;" vertex="1">
           <mxGeometry height="516" width="294" x="-522" y="147" as="geometry" />
         </mxCell>
         <mxCell id="M0hYIVwqM-_pavipD0aI-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=22;labelBackgroundColor=light-dark(#CCCCFF,#FFFFFF);textShadow=0;labelBorderColor=none;fillColor=#CCCCFF;verticalAlign=middle;strokeColor=light-dark(#A28700,#B09500);" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;GOAL&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="52" width="103" x="659" y="23" as="geometry" />
         </mxCell>
         <mxCell id="M0hYIVwqM-_pavipD0aI-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Languages" vertex="1">
-          <mxGeometry height="92" width="124" x="225" y="467" as="geometry">
-            <mxRectangle height="30" width="54" x="225" y="467" as="alternateBounds" />
+          <mxGeometry height="92" width="122" x="225" y="466" as="geometry">
+            <mxRectangle height="30" width="54" x="225" y="466" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Improve my Dutch&amp;nbsp;" link="https://drive.google.com/file/d/1bT3g2DQiC6pbKN7p5oWVTNPtxU2fCgcW/view?usp=drive_link" linkTarget="_blank" id="M0hYIVwqM-_pavipD0aI-12">
           <mxCell parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="30" width="124" y="30" as="geometry" />
+            <mxGeometry height="30" width="122" y="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="M0hYIVwqM-_pavipD0aI-13" parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Improve my&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;French&lt;/span&gt;" vertex="1">
-          <mxGeometry height="32" width="124" y="60" as="geometry" />
+          <mxGeometry height="32" width="122" y="60" as="geometry" />
         </mxCell>
         <mxCell id="M0hYIVwqM-_pavipD0aI-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -152,14 +152,14 @@
         </mxCell>
         <UserObject label="" tags="" link="https://drive.google.com/file/d/19QyF_LCAcK_MSgs39rc7CX57Glw4tZBA/view?usp=drive_link" id="UuGBkCDJUXiaj23rXrLq-4">
           <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
-            <mxGeometry height="139" width="90" x="-153" y="386" as="geometry">
+            <mxGeometry height="92" width="90" x="-153" y="386" as="geometry">
               <mxRectangle height="44" width="50" x="-153" y="386" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="Acceptance to innoEnergy Programme" tags="" id="UuGBkCDJUXiaj23rXrLq-7">
           <mxCell parent="UuGBkCDJUXiaj23rXrLq-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1">
-            <mxGeometry height="59" width="77" x="6.5" y="61" as="geometry" />
+            <mxGeometry height="59" width="77" x="6.5" y="25" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -174,13 +174,13 @@
         </mxCell>
         <UserObject label="" tags="" link="https://drive.google.com/file/d/1K94UX7xPw3pEEgyiv_v1bO_vbTgdkiuL/view?usp=drive_link" linkTarget="_blank" id="UuGBkCDJUXiaj23rXrLq-9">
           <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
-            <mxGeometry height="109" width="90" x="-22" y="429" as="geometry">
+            <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
               <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-10" parent="UuGBkCDJUXiaj23rXrLq-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Admission to KU Leuven&amp;nbsp;" vertex="1">
-          <mxGeometry height="49" width="77" x="6.5" y="47" as="geometry" />
+          <mxGeometry height="49" width="77" x="6.5" y="18" as="geometry" />
         </mxCell>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-11" edge="1" parent="1" source="UuGBkCDJUXiaj23rXrLq-9" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="8sPnJW2xHsQr_f-i5zgN-29" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
