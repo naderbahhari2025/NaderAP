@@ -8,26 +8,22 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
-    gap: 0; /* IMPORTANT: removes spacing */
+    gap: 0;
 }
 
 #diagramArea {
-    flex: 5;
-}
-
-#diagramArea iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+    flex: 1;
+    width: calc(100% - 280px);
 }
 
 #sidePanel {
-    flex: 1;
-    max-width: 320px;
-}
-
-#sidePanel h2 {
-    margin-top: 0;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    border-left: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 20px;
+    overflow-y: auto;
 }
 
 #contentBox {
