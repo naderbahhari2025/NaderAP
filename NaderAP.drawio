@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2123" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,9 +119,11 @@
             <mxRectangle height="30" width="54" x="225" y="466" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M0hYIVwqM-_pavipD0aI-12" parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Improve my Dutch&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="122" y="30" as="geometry" />
-        </mxCell>
+        <UserObject label="Improve my Dutch&amp;nbsp;" link="https://drive.google.com/file/d/1bT3g2DQiC6pbKN7p5oWVTNPtxU2fCgcW/view?usp=drive_link" linkTarget="_blank" id="M0hYIVwqM-_pavipD0aI-12">
+          <mxCell parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="30" width="122" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="M0hYIVwqM-_pavipD0aI-13" parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Improve my&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;French&lt;/span&gt;" vertex="1">
           <mxGeometry height="32" width="122" y="60" as="geometry" />
         </mxCell>
@@ -148,7 +150,7 @@
         <mxCell id="M0hYIVwqM-_pavipD0aI-22" parent="M0hYIVwqM-_pavipD0aI-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="2028-2029&amp;nbsp; KU Leuven" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
-        <UserObject label="" tags="" id="UuGBkCDJUXiaj23rXrLq-4">
+        <UserObject label="" tags="" link="https://drive.google.com/file/d/19QyF_LCAcK_MSgs39rc7CX57Glw4tZBA/view?usp=drive_link" id="UuGBkCDJUXiaj23rXrLq-4">
           <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
             <mxGeometry height="92" width="90" x="-153" y="386" as="geometry">
               <mxRectangle height="44" width="50" x="-153" y="386" as="alternateBounds" />
@@ -170,7 +172,7 @@
             <mxPoint x="-46" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="" tags="" id="UuGBkCDJUXiaj23rXrLq-9">
+        <UserObject label="" tags="" link="https://drive.google.com/file/d/1K94UX7xPw3pEEgyiv_v1bO_vbTgdkiuL/view?usp=drive_link" linkTarget="_blank" id="UuGBkCDJUXiaj23rXrLq-9">
           <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
             <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
               <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
