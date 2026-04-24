@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2590" dy="1123" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,9 +153,11 @@
             <mxRectangle height="44" width="50" x="-153" y="386" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UuGBkCDJUXiaj23rXrLq-7" parent="UuGBkCDJUXiaj23rXrLq-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Acceptance to innoEnergy Programme" vertex="1">
-          <mxGeometry height="59" width="77" x="6.5" y="25" as="geometry" />
-        </mxCell>
+        <UserObject label="Acceptance to innoEnergy Programme" tags="#milestone1" id="UuGBkCDJUXiaj23rXrLq-7">
+          <mxCell parent="UuGBkCDJUXiaj23rXrLq-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1">
+            <mxGeometry height="59" width="77" x="6.5" y="25" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -166,11 +168,13 @@
             <mxPoint x="-46" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UuGBkCDJUXiaj23rXrLq-9" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
-            <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="" tags="" id="UuGBkCDJUXiaj23rXrLq-9">
+          <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
+            <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
+              <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-10" parent="UuGBkCDJUXiaj23rXrLq-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Admission to KU Leuven&amp;nbsp;" vertex="1">
           <mxGeometry height="49" width="77" x="6.5" y="18" as="geometry" />
         </mxCell>

@@ -1,107 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>NaderAP Interactive Timeline</title>
-
-  <!-- Draw.io Viewer -->
-  <script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    #sidebar {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 260px;
-      height: 100%;
-      background: #1f1f1f;
-      color: white;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    #sidebar h2 {
-      margin-top: 0;
-    }
-
-    #sidebar button {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      border: none;
-      background: #444;
-      color: white;
-      border-radius: 6px;
-    }
-
-    #sidebar button:hover {
-      background: #666;
-    }
-
-    #content {
-      margin-left: 280px;
-      padding: 20px;
-    }
-
-    .version {
-      margin-top: 30px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  </style>
-</head>
-
-<body>
-
-<div style="display:flex;">
-
-  <!-- LEFT: diagram -->
-  <div style="flex:2;">
-    <iframe src="your-diagram-export.html" style="width:100%; height:100vh;"></iframe>
-  </div>
-
-  <!-- RIGHT: side panel -->
-  <div style="flex:1; padding:20px; border-left:1px solid #ccc;">
-    <h2>Details</h2>
-    <div id="contentBox">
-      Click a shape to see details
-    </div>
-  </div>
-
-</div>
-
-<div id="sidebar">
-  <h2>NaderAP Timeline</h2>
-
-  <button onclick="showPhase('Phase 1')">Phase 1</button>
-  <button onclick="showPhase('Phase 2')">Phase 2</button>
-  <button onclick="showPhase('Milestones')">Milestones</button>
-
-  <div class="version">
-    Last Updated: April 2026<br>
-    Version: v1.0
-  </div>
-</div>
-
-<div id="content">
-
-  <div id-"diagram" 
-       style="max-width:100%; border:1px solid #ccc;"
-       data-mxgraph='{
-         
-        
-        
-        "xml": "
-        <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2132" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,14 +148,18 @@
         <mxCell id="M0hYIVwqM-_pavipD0aI-22" parent="M0hYIVwqM-_pavipD0aI-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="2028-2029&amp;nbsp; KU Leuven" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="UuGBkCDJUXiaj23rXrLq-4" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="92" width="90" x="-153" y="386" as="geometry">
-            <mxRectangle height="44" width="50" x="-153" y="386" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UuGBkCDJUXiaj23rXrLq-7" parent="UuGBkCDJUXiaj23rXrLq-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Acceptance to innoEnergy Programme" vertex="1">
-          <mxGeometry height="59" width="77" x="6.5" y="25" as="geometry" />
-        </mxCell>
+        <UserObject label="" tags="#milestone1" id="UuGBkCDJUXiaj23rXrLq-4">
+          <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
+            <mxGeometry height="92" width="90" x="-153" y="386" as="geometry">
+              <mxRectangle height="44" width="50" x="-153" y="386" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Acceptance to innoEnergy Programme" tags="#milestone1" id="UuGBkCDJUXiaj23rXrLq-7">
+          <mxCell parent="UuGBkCDJUXiaj23rXrLq-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1">
+            <mxGeometry height="59" width="77" x="6.5" y="25" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -267,11 +170,13 @@
             <mxPoint x="-46" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UuGBkCDJUXiaj23rXrLq-9" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
-            <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="" tags="" id="UuGBkCDJUXiaj23rXrLq-9">
+          <mxCell parent="1" style="swimlane;startSize=0;" vertex="1">
+            <mxGeometry height="73" width="90" x="-22" y="429" as="geometry">
+              <mxRectangle height="44" width="50" x="-22" y="429" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
         <mxCell id="UuGBkCDJUXiaj23rXrLq-10" parent="UuGBkCDJUXiaj23rXrLq-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Admission to KU Leuven&amp;nbsp;" vertex="1">
           <mxGeometry height="49" width="77" x="6.5" y="18" as="geometry" />
         </mxCell>
@@ -287,53 +192,10 @@
             <mxPoint x="-23" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="09AKZIsOES4FJiMPJrVf-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0.04;" value="&lt;font style=&quot;color: rgb(255, 51, 153);&quot;&gt;edit please here!&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="-306" y="710" as="geometry" />
+        <mxCell id="09AKZIsOES4FJiMPJrVf-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0.04;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;color: rgb(255, 51, 153); font-size: 20px;&quot;&gt;edit please here!&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 153); font-size: 20px;&quot;&gt;HELLO WORLD!&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="159" width="224" x="52" y="696" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
-
-",
-         "toolbar": "zoom layers lightbox",
-         "nav": true
-       }'>
-  </div>
-
-</div>
-
-<script>
-function showPhase(phase) {
-    alert("You clicked: " + phase);
-}
-</script>
-
-</body>
-</html>
-
-</div> <!-- end of your page content -->
-
-<script>
-window.addEventListener("hashchange", function () {
-    const hash = window.location.hash;
-    const box = document.getElementById("contentBox");
-
-    if (!box) return;
-
-    if (hash === "#cv") {
-        box.innerHTML = "<h3>CV</h3><a href='YOUR_GOOGLE_DRIVE_LINK' target='_blank'>Open CV</a>";
-    }
-
-    else if (hash === "#phase1") {
-        box.innerHTML = "<h3>Phase 1</h3><p>Details about Phase 1</p>";
-    }
-
-    else {
-        box.innerHTML = "Click a shape to see details";
-    }
-});
-</script>
-
-</body>
-</html>
