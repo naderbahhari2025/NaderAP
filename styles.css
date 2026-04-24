@@ -8,12 +8,11 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
+    gap: 0; /* IMPORTANT: removes spacing */
 }
 
 #diagramArea {
-    flex: 2;
-    height: 100vh;
-    overflow: hidden;
+    flex: 5;
 }
 
 #diagramArea iframe {
@@ -23,11 +22,8 @@ body {
 }
 
 #sidePanel {
-    flex: 0.2;
-    padding: 5px;
-    border-left: 1px solid #cccccc;
-    background: #f8f8f8;
-    overflow-y: auto;
+    flex: 1;
+    max-width: 320px;
 }
 
 #sidePanel h2 {
