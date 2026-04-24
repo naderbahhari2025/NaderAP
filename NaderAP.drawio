@@ -192,8 +192,8 @@
             <mxPoint x="-23" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="09AKZIsOES4FJiMPJrVf-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0.04;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;color: rgb(255, 51, 153); font-size: 20px;&quot;&gt;edit please here!&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 153); font-size: 20px;&quot;&gt;HELLO WORLD!&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="159" width="224" x="52" y="696" as="geometry" />
+        <mxCell id="09AKZIsOES4FJiMPJrVf-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0.04;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font color=&quot;#ff3399&quot; style=&quot;font-size: 24px;&quot;&gt;It is being Constructed&amp;nbsp;&lt;br&gt;Please come later but soon&lt;/font&gt;" vertex="1">
+          <mxGeometry height="236" width="291" x="52" y="619" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
