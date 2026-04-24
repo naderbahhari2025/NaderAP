@@ -30,6 +30,7 @@ function updatePanel() {
 
     if (!box) return;
 
+    /*
     if (hash === "#cv") {
         box.innerHTML = `
             <h3>My CV</h3>
@@ -41,7 +42,7 @@ function updatePanel() {
             </p>
         `;
     }
-
+*/
     else if (hash === "#milestone1") {
         box.innerHTML = `
             <h3>Milestone 1</h3>
