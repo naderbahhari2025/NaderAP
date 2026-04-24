@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NaderAP Interactive Timeline</title>
+
+  <!-- Draw.io Viewer -->
+  <script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 260px;
+      height: 100%;
+      background: #1f1f1f;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    #sidebar h2 {
+      margin-top: 0;
+    }
+
+    #sidebar button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border: none;
+      background: #444;
+      color: white;
+      border-radius: 6px;
+    }
+
+    #sidebar button:hover {
+      background: #666;
+    }
+
+    #content {
+      margin-left: 280px;
+      padding: 20px;
+    }
+
+    .version {
+      margin-top: 30px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="sidebar">
+  <h2>NaderAP Timeline</h2>
+
+  <button onclick="showPhase('Phase 1')">Phase 1</button>
+  <button onclick="showPhase('Phase 2')">Phase 2</button>
+  <button onclick="showPhase('Milestones')">Milestones</button>
+
+  <div class="version">
+    Last Updated: April 2026<br>
+    Version: v1.0
+  </div>
+</div>
+
+<div id="content">
+
+  <div class="mxgraph"
+       style="max-width:100%; border:1px solid #ccc;"
+       data-mxgraph='{
+         "url": "NaderAP.drawio.xml",
+         "toolbar": "zoom layers lightbox",
+         "nav": true
+       }'>
+  </div>
+
+</div>
+
+<script>
+function showPhase(phase) {
+    alert("You clicked: " + phase);
+}
+</script>
+
+</body>
+</html>
