@@ -30,7 +30,7 @@ function updatePanel() {
 
     if (!box) return;
 
-    /*
+   
     if (hash === "#cv") {
         box.innerHTML = `
             <h3>My CV</h3>
@@ -42,7 +42,7 @@ function updatePanel() {
             </p>
         `;
     }
-*/
+
     else if (hash === "#milestone1") {
         box.innerHTML = `
             <h3>Milestone 1</h3>
@@ -73,3 +73,16 @@ function updatePanel() {
 // Detect clicks from draw.io links
 window.addEventListener("hashchange", updatePanel);
 window.addEventListener("load", updatePanel);
+
+let played = false;
+
+document.addEventListener("click", function () {
+    if (played) return;
+
+    const anthem = document.getElementById("anthem");
+
+    if (anthem) {
+        anthem.play();
+        played = true;
+    }
+});
