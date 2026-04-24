@@ -23,7 +23,7 @@ body {
 }
 
 #sidePanel {
-    flex: 1;
+    flex: 0.6;
     padding: 20px;
     border-left: 1px solid #cccccc;
     background: #f8f8f8;
