@@ -1,28 +1,62 @@
-let anthemPlayed = false;
+let anthemStarted = false;
 
-function playAnthem() {
-    if (anthemPlayed) return;
+const anthem = document.getElementById("anthem");
+const toggle = document.getElementById("anthemToggle");
 
-    const anthem = document.getElementById("anthem");
+/* =========================
+   Start anthem only once
+========================= */
 
-    if (!anthem) return;
+function startAnthem() {
+    if (anthemStarted || !anthem) return;
 
-    anthem.volume = 0.6; // optional nice touch
+    anthem.volume = 0.6;
 
-    const playPromise = anthem.play();
+    anthem.play()
+        .then(() => {
+            anthemStarted = true;
 
-    if (playPromise !== undefined) {
-        playPromise
-            .then(() => {
-                anthemPlayed = true;
-                console.log("Anthem played");
-            })
-            .catch((err) => {
-                console.log("Autoplay blocked:", err);
-            });
-    }
+            if (toggle) {
+                toggle.checked = true;
+            }
+
+            console.log("Anthem started");
+        })
+        .catch((err) => {
+            console.log("Playback blocked:", err);
+        });
 }
 
-// multiple safe triggers
-document.addEventListener("click", playAnthem);
-document.addEventListener("keydown", playAnthem);
+/* =========================
+   First interaction starts anthem
+========================= */
+
+function firstInteractionStart() {
+    startAnthem();
+
+    document.removeEventListener("click", firstInteractionStart);
+    document.removeEventListener("keydown", firstInteractionStart);
+}
+
+document.addEventListener("click", firstInteractionStart);
+document.addEventListener("keydown", firstInteractionStart);
+
+/* =========================
+   Toggle switch ON / OFF
+========================= */
+
+if (toggle) {
+    toggle.addEventListener("change", function () {
+        if (this.checked) {
+            startAnthem();
+
+            if (anthem) {
+                anthem.play();
+            }
+        } else {
+            if (anthem) {
+                anthem.pause();
+            }
+        }
+    });
+}

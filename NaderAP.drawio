@@ -208,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EK0hndZu0quXap_jDW99-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#CCFFFF,#CCFFFF);" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="71" y="594" as="geometry" />
+          <mxGeometry height="60" width="120" x="15" y="592" as="geometry" />
         </mxCell>
         <mxCell id="EK0hndZu0quXap_jDW99-19" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;rotation=-180;fillColor=#33FF33;strokeColor=#000000;" value="" vertex="1">
           <mxGeometry height="30" width="16" x="544" y="266" as="geometry" />
