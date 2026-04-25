@@ -98,4 +98,4 @@ window.addEventListener("hashchange", function () {
         openCV();
     }
 });
-})
+});
