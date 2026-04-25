@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2039" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="2381" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,15 +115,15 @@
         </mxCell>
         <mxCell id="M0hYIVwqM-_pavipD0aI-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Languages&lt;/b&gt;" vertex="1">
           <mxGeometry height="149" width="124" x="225" y="453" as="geometry">
-            <mxRectangle height="30" width="54" x="225" y="467" as="alternateBounds" />
+            <mxRectangle height="30" width="54" x="225" y="453" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;u&gt;Improve my Dutch&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" link="https://drive.google.com/file/d/1bT3g2DQiC6pbKN7p5oWVTNPtxU2fCgcW/view?usp=drive_link" linkTarget="_blank" id="M0hYIVwqM-_pavipD0aI-12">
+        <UserObject label="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;u&gt;Improving my Dutch&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" link="https://drive.google.com/file/d/1bT3g2DQiC6pbKN7p5oWVTNPtxU2fCgcW/view?usp=drive_link" linkTarget="_blank" id="M0hYIVwqM-_pavipD0aI-12">
           <mxCell parent="M0hYIVwqM-_pavipD0aI-11" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1">
             <mxGeometry height="44" width="124" y="55" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="M0hYIVwqM-_pavipD0aI-13" parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Improve my&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;French&lt;/span&gt;" vertex="1">
+        <mxCell id="M0hYIVwqM-_pavipD0aI-13" parent="M0hYIVwqM-_pavipD0aI-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Improving my&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;French&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="124" y="99" as="geometry" />
         </mxCell>
         <mxCell id="M0hYIVwqM-_pavipD0aI-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
