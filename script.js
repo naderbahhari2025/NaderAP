@@ -78,4 +78,24 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+
+
+ /* =========================
+       #CV 
+    ========================= */
+
+  function openCV() {
+    window.open(
+        "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
+        "cvWindow",
+        "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
+    );
+}
+
+/* detect hash changes from draw.io clicks */
+window.addEventListener("hashchange", function () {
+    if (window.location.hash === "#cv") {
+        openCV();
+    }
 });
+})
