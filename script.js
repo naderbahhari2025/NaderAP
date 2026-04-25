@@ -94,8 +94,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* detect hash changes from draw.io clicks */
 window.addEventListener("hashchange", function () {
-    if (window.location.hash === "#cv") {
+    if (window.location.hash === "#CV") {
         openCV();
     }
 });
+
 });
