@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.removeEventListener("keydown", firstInteractionStart);
     }
 
-    /* clicks in parent page */
     document.addEventListener("click", firstInteractionStart);
     document.addEventListener("keydown", firstInteractionStart);
 
@@ -66,10 +65,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (toggle) {
         toggle.addEventListener("change", function () {
             if (this.checked) {
-                if (!anthemStarted) {
-                    startAnthem();
-                } else if (anthem) {
-                    anthem.play();
+                if (anthem) {
+                    anthem.play().catch((err) => {
+                        console.log("Play blocked:", err);
+                    });
                 }
             } else {
                 if (anthem) {
@@ -79,23 +78,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-
- /* =========================
+    /* =========================
        #CV 
     ========================= */
 
-  function openCV() {
-    window.open(
-        "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
-        "cvWindow",
-        "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
-    );
-}
-
-/* detect hash changes from draw.io clicks */
-window.addEventListener("hashchange", function () {
-    if (window.location.hash === "#cv") {
-        openCV();
+    function openCV() {
+        window.open(
+            "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
+            "cvWindow",
+            "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
+        );
     }
+
+    window.addEventListener("hashchange", function () {
+        if (window.location.hash === "#cv") {
+            openCV();
+        }
+    });
 });
-})
