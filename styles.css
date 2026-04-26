@@ -56,8 +56,8 @@ html, body {
 
 /* fixed sidebar on the right */
 #sidePanel {
-    width: 260px;           /* visible width of the panel */
-    flex: 0 0 260px;
+    width: 250px;           /* visible width of the panel */
+    flex: 0 0 250px;
     border-left: 1px solid #ccc;   /* vertical separating line from left diagram */
     background: #f8f8f8;        /* light grey background */
     padding: 10px;          /* inner spacing inside panel */
@@ -82,8 +82,8 @@ html, body {
 /* Anthem title */
 .label-main {
     font-weight: bold;
-    font-size: 18px;
-    margin-right: 20px; /* gap between Anthem and OFF */
+    font-size: 14px;
+    margin-right: 20px; /* gap between the words "Anthem" and "OFF" */
 }
 
 /* OFF [switch] ON */
@@ -94,7 +94,7 @@ html, body {
 }
 
 .toggleText {
-    font-size: 12px;
+    font-size: 10px;
     color: #999;
     user-select: none;
 }
@@ -166,12 +166,12 @@ html, body {
 
 #detailsHeader h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 #defaultMessage {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     color: #666;
 }
 
