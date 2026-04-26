@@ -228,7 +228,7 @@
             <mxPoint x="295.31" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="" link="#milestone1" OnClick="window.parent.postMessage({&#xa;    type: &quot;milestoneClick&quot;,&#xa;    id: &quot;milestone1&quot;&#xa;}, &quot;*&quot;);" id="EK0hndZu0quXap_jDW99-7">
+        <UserObject label="" link="#milestone1" id="EK0hndZu0quXap_jDW99-7">
           <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;fillColor=#33FF33;strokeColor=#000000;" vertex="1">
             <mxGeometry height="30" width="16" x="258" y="346" as="geometry" />
           </mxCell>

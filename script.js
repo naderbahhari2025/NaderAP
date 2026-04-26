@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
  /* =========================
-       #CV 
+       CV popup (no hash change)
     ========================= */
 
   function openCV() {
@@ -91,15 +91,28 @@ document.addEventListener("DOMContentLoaded", function () {
         "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
     );
 }
-
-/* detect hash changes from draw.io clicks */
+/*
+// detect hash changes from draw.io clicks using #CV
 window.addEventListener("hashchange", function () {
     if (window.location.hash === "#CV") {
         openCV();
     }
-});
+*/
 
-const milestoneText = document.getElementById("milestoneText");
+
+if (cvLink) {
+        cvLink.addEventListener("click", function (e) {
+            e.preventDefault();
+            openCV();
+        });
+    }
+
+/* =========================
+       Milestone Details
+       (BEST + SAFEST METHOD)
+    ========================= */
+
+// const milestoneText = document.getElementById("milestoneText");
 
 const milestoneDetails = {
     milestone1: "Text of milestone-1\n\nExample: First research phase and literature review.",
@@ -109,18 +122,21 @@ const milestoneDetails = {
     milestone5: "Text of milestone-5\n\nExample: Final defense and submission."
 };
 
-function showMilestoneDetails(id) {
-    if (milestoneText && milestoneDetails[id]) {
-        milestoneText.textContent = milestoneDetails[id];
-    }
-}
+function showMilestoneDetails() {
+        const hash = window.location.hash.replace("#", "");
 
-window.addEventListener("message", function (event) {
-    if (event.data && event.data.type === "milestoneClick") {
-        showMilestoneDetails(event.data.id);
+        if (milestoneText && milestoneDetails[hash]) {
+            milestoneText.textContent = milestoneDetails[hash];
+        }
     }
+
+    /* detect clicks from draw.io links like #milestone1 */
+    window.addEventListener("hashchange", function () {
+        showMilestoneDetails();
+    });
+
+    /* also works if page loads already with a hash */
+    showMilestoneDetails();
+
 });
 
-
-
-});
