@@ -46,11 +46,11 @@ html, body {
 ========================= */
 
 #sidePanel {
-    width: 300px;
-    flex: 0 0 300px; /* fixed sidebar width */
+    width: 260px;
+    flex: 0 0260px; /* fixed sidebar width */
     border-left: 1px solid #ccc;
     background: #f8f8f8;
-    padding: 2px;
+    padding: 5px;
     overflow-y: auto;
     box-sizing: border-box;
 }
@@ -70,7 +70,7 @@ html, body {
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    min-height: 120px;
+    min-height: 200px;
     white-space: pre-line;
 }
 
