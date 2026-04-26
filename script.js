@@ -104,10 +104,10 @@ document.addEventListener("DOMContentLoaded", function () {
     ========================= */
 
     const milestoneDetails = {
-        milestone0: "Text of milestone-0\n\nExample: First research phase and literature review.",
-        milestone1: "Text of milestone-1\n\nExample: First research phase and literature review.",
-        milestone2: "Text of milestone-2\n\nExample: Data collection and methodology.",
-        milestone3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
+        M0: "Text of milestone-0\n\nExample: First research phase and literature review.",
+        M1: "Text of milestone-1\n\nExample: First research phase and literature review.",
+        M2: "Text of milestone-2\n\nExample: Data collection and methodology.",
+        M3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
         milestone4: "Text of milestone-4\n\nExample: Writing final report and revisions.",
         milestone5: "Text of milestone-5\n\nExample: Final defense and submission."
     };
