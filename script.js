@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ========================= */
 
     const milestoneDetails = {
-        M0: "<strong> Milestone 0: </strong> <br> <style='font-size: 14px; color: blue;'> This is when I arrived to Belgium to study at KU Leuven in October 29, 2022.</style>",
+        M0: "<B><U> Milestone 0: </U></B> <br> <style='font-size: 14px; color: blue;'> This is when I arrived to Belgium to study at KU Leuven in October 29, 2022.</style>",
         M1: "Text of milestone-1\n\nExample: First research phase and literature review.",
         M2: "Text of milestone-2\n\nExample: Data collection and methodology.",
         M3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
