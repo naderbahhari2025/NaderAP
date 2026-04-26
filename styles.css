@@ -120,50 +120,64 @@ html, body {
     white-space: pre-line;
 }
 
+
+
 /* =========================
    ANTHEM TOGGLE
 ========================= */
 
-/* whole Anthem section */
 #anthemControl {
     margin-top: 10px;
     padding-top: 0;
     border-top: none;
 
-    /* makes Anthem title + switch stay on same row */
+    /* puts title + switch on same row */
     display: flex;
-
-    /* vertical center alignment */
     align-items: center;
-
-    /* pushes title left and switch right */
-    justify-content: space-between;
 }
 
-/* "Anthem" title */
+/* Anthem title */
 .label-main {
     display: block;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 0; /* remove bottom spacing since no longer stacked */
+    margin-bottom: 0;
+
+    /* creates gap between "Anthem" and "OFF" */
+    margin-right: 20px;
 }
 
-/* row containing OFF switch ON */
+/* OFF [switch] ON row */
 .toggleRow {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/* text: OFF and ON */
+/* OFF / ON text */
 .toggleText {
     font-size: 12px;
     color: #999;
     user-select: none;
 }
 
+/* Details title + helper text on same line */
 
+#detailsHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
+#detailsHeader h2 {
+    margin: 0;
+    font-size: 24px;
+}
 
+#defaultMessage {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
 
 
