@@ -47,7 +47,7 @@ html, body {
 
 #sidePanel {
     width: 280px;
-    flex: 0 0 320px; /* fixed sidebar width */
+    flex: 0 0 340px; /* fixed sidebar width */
     border-left: 1px solid #ccc;
     background: #f8f8f8;
     padding: 10px;
