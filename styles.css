@@ -203,3 +203,15 @@ html, body {
     */
     white-space: pre-line;
 }
+
+
+
+/* small icon inside sentence */
+.inlineIcon {
+    width: 18px;          /* icon size */
+    height: 18px;
+
+    vertical-align: middle; /* aligns icon with text */
+
+    margin: 0 4px;        /* small spacing left/right */
+}
