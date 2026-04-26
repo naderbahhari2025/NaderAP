@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const anthem = document.getElementById("anthem");
     const toggle = document.getElementById("anthemToggle");
     const iframe = document.querySelector("#diagramArea iframe");
+    const cvLink = document.getElementById("cvLink");
+    const milestoneText = document.getElementById("milestoneText");
 
     let anthemStarted = false;
 
@@ -18,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(() => {
                 anthemStarted = true;
 
-                /* auto switch visual ON */
                 if (toggle) {
                     toggle.checked = true;
                 }
@@ -41,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.removeEventListener("keydown", firstInteractionStart);
     }
 
-    /* clicks in parent page */
     document.addEventListener("click", firstInteractionStart);
     document.addEventListener("keydown", firstInteractionStart);
 
@@ -79,50 +79,38 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-
- /* =========================
+    /* =========================
        CV popup (no hash change)
     ========================= */
 
-  function openCV() {
-    window.open(
-        "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
-        "cvWindow",
-        "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
-    );
-}
-/*
-// detect hash changes from draw.io clicks using #CV
-window.addEventListener("hashchange", function () {
-    if (window.location.hash === "#CV") {
-        openCV();
+    function openCV() {
+        window.open(
+            "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
+            "cvWindow",
+            "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
+        );
     }
-*/
 
-
-if (cvLink) {
+    if (cvLink) {
         cvLink.addEventListener("click", function (e) {
             e.preventDefault();
             openCV();
         });
     }
 
-/* =========================
+    /* =========================
        Milestone Details
-       (BEST + SAFEST METHOD)
     ========================= */
 
-// const milestoneText = document.getElementById("milestoneText");
+    const milestoneDetails = {
+        milestone1: "Text of milestone-1\n\nExample: First research phase and literature review.",
+        milestone2: "Text of milestone-2\n\nExample: Data collection and methodology.",
+        milestone3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
+        milestone4: "Text of milestone-4\n\nExample: Writing final report and revisions.",
+        milestone5: "Text of milestone-5\n\nExample: Final defense and submission."
+    };
 
-const milestoneDetails = {
-    milestone1: "Text of milestone-1\n\nExample: First research phase and literature review.",
-    milestone2: "Text of milestone-2\n\nExample: Data collection and methodology.",
-    milestone3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
-    milestone4: "Text of milestone-4\n\nExample: Writing final report and revisions.",
-    milestone5: "Text of milestone-5\n\nExample: Final defense and submission."
-};
-
-function showMilestoneDetails() {
+    function showMilestoneDetails() {
         const hash = window.location.hash.replace("#", "");
 
         if (milestoneText && milestoneDetails[hash]) {
@@ -130,13 +118,10 @@ function showMilestoneDetails() {
         }
     }
 
-    /* detect clicks from draw.io links like #milestone1 */
     window.addEventListener("hashchange", function () {
         showMilestoneDetails();
     });
 
-    /* also works if page loads already with a hash */
     showMilestoneDetails();
 
 });
-
