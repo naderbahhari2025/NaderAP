@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+
     /* =========================
        Manual toggle ON / OFF
     ========================= */
@@ -123,4 +124,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     showMilestoneDetails();
+
+
+
+/* =========================
+   CV popup from draw.io #CV (when teacher clicks on my Name) 
+========================= */
+
+function openCV() {
+    window.open(
+        "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view", 
+        "cvWindow",
+        "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
+    );
+}
+
+window.addEventListener("hashchange", function () {
+    if (window.location.hash === "#CV") {
+        openCV();
+
+        /* optional: remove #CV from URL after opening */
+        history.replaceState(
+            null,
+            null,
+            window.location.pathname + window.location.search
+        );
+    }
+});
+
+
+
 });
