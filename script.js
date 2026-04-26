@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ========================= */
 
     const milestoneDetails = {
-        M0: "Milestone 0\n This is when I arrived to Belgium to study at KU Leuven in October 29, 2022.",
+        M0: "<strong> Milestone 0: </stong> <br> This is when I arrived to Belgium to study at KU Leuven in October 29, 2022.",
         M1: "Text of milestone-1\n\nExample: First research phase and literature review.",
         M2: "Text of milestone-2\n\nExample: Data collection and methodology.",
         M3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         /* show milestone details */
         if (milestoneText && milestoneDetails[hash]) {
-            milestoneText.textContent = milestoneDetails[hash];
+            milestoneText.innerHTML = milestoneDetails[hash]; // Changed from textContent to innerHTML
         }
     }
 
