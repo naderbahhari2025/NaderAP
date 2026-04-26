@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     /* =========================
-       CV popup (no hash change)
+       CV popup (optional)
     ========================= */
 
     function openCV() {
@@ -123,5 +123,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     showMilestoneDetails();
-
 });
