@@ -80,24 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    /* =========================
-       CV popup (optional)
-    ========================= */
-
-    function openCV() {
-        window.open(
-            "https://drive.google.com/file/d/1evf7U3bdiGCczezQ_vQX2L4z0IMPEHKD/view",
-            "cvWindow",
-            "width=900,height=700,left=200,top=100,resizable=yes,scrollbars=yes"
-        );
-    }
-
-    if (cvLink) {
-        cvLink.addEventListener("click", function (e) {
-            e.preventDefault();
-            openCV();
-        });
-    }
+    
 
     /* =========================
        Milestone Details
