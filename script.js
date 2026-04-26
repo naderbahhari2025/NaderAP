@@ -99,4 +99,28 @@ window.addEventListener("hashchange", function () {
     }
 });
 
+const milestoneText = document.getElementById("milestoneText");
+
+const milestoneDetails = {
+    milestone1: "Text of milestone-1\n\nExample: First research phase and literature review.",
+    milestone2: "Text of milestone-2\n\nExample: Data collection and methodology.",
+    milestone3: "Text of milestone-3\n\nExample: Analysis and interpretation of results.",
+    milestone4: "Text of milestone-4\n\nExample: Writing final report and revisions.",
+    milestone5: "Text of milestone-5\n\nExample: Final defense and submission."
+};
+
+function showMilestoneDetails(id) {
+    if (milestoneText && milestoneDetails[id]) {
+        milestoneText.textContent = milestoneDetails[id];
+    }
+}
+
+window.addEventListener("message", function (event) {
+    if (event.data && event.data.type === "milestoneClick") {
+        showMilestoneDetails(event.data.id);
+    }
+});
+
+
+
 });
