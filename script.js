@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const anthem = document.getElementById("anthem");
     const toggle = document.getElementById("anthemToggle");
     const iframe = document.querySelector("#diagramArea iframe");
-    const cvLink = document.getElementById("cvLink");       // Linked to what ? it is useless now as it is
+    const cvLink = document.getElementById("#CV");       // ~~? Linked to what ? it is useless now as it is
     const milestoneText = document.getElementById("milestoneText");
 
     let anthemStarted = false;
