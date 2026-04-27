@@ -208,8 +208,8 @@ html, body {
 
 /* small icon inside sentence */
 .inlineIcon {
-    width: 18px;          /* icon size */
-    height: 18px;
+    width: 24px;          /* icon size */
+    height: 30px;
 
     vertical-align: middle; /* aligns icon with text */
 
