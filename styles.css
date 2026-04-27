@@ -56,8 +56,8 @@ html, body {
 
 /* fixed sidebar on the right */
 #sidePanel {
-    width: 225px;           /* visible width of the panel */
-    flex: 0 0 225px;
+    width: 235px;           /* visible width of the panel */
+    flex: 0 0 235px;
     border-left: 1px solid #ccc;   /* vertical separating line from left diagram */
     background: #f8f8f8;        /* light grey background */
     padding: 10px;          /* inner spacing inside panel */
@@ -197,7 +197,7 @@ html, body {
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    min-height: 200px;
+    min-height: 400px;
     /* preserves line breaks from JavaScript text:
        \n becomes real new line
     */
