@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
         M2: "<strong style='font-size:12px;'> <u> Milestone 2:</u></strong><br><span style='font-size: 10px; color: #111111;'>Will finish level 1.2 of Dutch language with CVO PRO on June 22, 2026 .</span>",
         M3: "<strong style='font-size:12px;'> <u> Milestone 3:</u></strong><br><span style='font-size: 10px; color: #111111;'>Will start working as an engineer in Flanders on Juli 01, 2026.</span>",
         M4: "<strong style='font-size:12px;'> <u> Milestone 4:</u></strong><br><span style='font-size: 10px; color: #111111;'>Will complete my innoEnergy Master's Programme on September 30, 2029.</span>",
-        M5: "<strong style='font-size:12px;'> <u> Milestone 5:</u></strong><br><span style='font-size: 10px; color: #111111;'> Will work as a graduate from the innoEnergy Master's Programme on 01, 2029.</span>",       
+        M5: "<strong style='font-size:12px;'> <u> Milestone 5:</u></strong><br><span style='font-size: 10px; color: #111111;'> Will work as a graduate from the innoEnergy Master's Programme on November 01, 2029.</span>",       
     };
 
     /* =========================
