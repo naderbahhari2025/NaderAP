@@ -8,61 +8,44 @@ html, body {
     padding: 0;
     font-family: Arial, sans-serif;
     background: #ffffff;
+}
+
+/* MAIN LAYOUT */
+
+#mainLayout {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+}
+
+/* LEFT SIDE DIAGRAM */
+
+#diagramArea {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
     overflow: hidden;
 }
 
-
-/* =========================
-   MAIN LAYOUT
-========================= */
-
-/* main container holding:
-   LEFT = diagram
-   RIGHT = side panel
-*/
-
-#mainLayout {
-    display: flex;  /* places children side-by-side horizontally */
-    height: 100vh;  /* full screen height */
-    width: 100%;     /* full screen width */
-}
-
-
-/* =========================
-   LEFT SIDE (DIAGRAM)
-========================= */
-/* area containing the draw.io iframe */
-
-#diagramArea {
-    flex: 1;            /* takes all remaining width */
-    /*height: 100vh;*/       /* full screen height */
-    margin: 0;     
-    padding: 0;          /* takes all remaining width */
-    overflow: hidden;   /* prevents scrollbars */
-}
-
-/* the embedded draw.io iframe itself */
 #diagramArea iframe {
-    /*width: 100%; */
+    width: 100%;
     height: 100%;
     border: none;
     display: block;
 }
 
+/* RIGHT SIDE PANEL */
 
-/* =========================
-   RIGHT SIDE PANEL
-========================= */
-
-/* fixed sidebar on the right */
 #sidePanel {
-    width: 250px;           /* visible width of the panel */
-    flex: 0 0 250px;
-    border-left: 1px solid #ccc;   /* vertical separating line from left diagram */
-    background: #f8f8f8;        /* light grey background */
-    padding: 10px;          /* inner spacing inside panel */
-    overflow-y: auto;       /* if content becomes long → scroll vertically */
-    box-sizing: border-box; /* makes padding included inside width calculation */
+    width: 240px;
+    flex-shrink: 0;
+    border-left: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
 
 
