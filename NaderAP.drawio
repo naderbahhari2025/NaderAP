@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2371" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="2191" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
         </UserObject>
         <UserObject label="" link="#GOAL" id="9fWoRcsrZaKOFuqFO8vI-33">
           <mxCell connectable="0" parent="1" style="group" vertex="1">
-            <mxGeometry height="239" width="103" x="660" y="21" as="geometry" />
+            <mxGeometry height="239" width="103" x="643" y="21" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="8sPnJW2xHsQr_f-i5zgN-39" parent="9fWoRcsrZaKOFuqFO8vI-33" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;spacingLeft=4;spacingRight=2;textShadow=1;fillColor=#99FF99;fontColor=#000000;strokeColor=light-dark(#A28700,#B09500);" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Contributing to the solution of the ongoing Energy Crisis&lt;/font&gt;" vertex="1">

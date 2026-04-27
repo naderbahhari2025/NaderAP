@@ -43,7 +43,7 @@ html, body {
 
 /* the embedded draw.io iframe itself */
 #diagramArea iframe {
-    width: 100%;
+    /*width: 100%; */
     height: 100%;
     border: none;
     display: block;
@@ -56,8 +56,8 @@ html, body {
 
 /* fixed sidebar on the right */
 #sidePanel {
-    width: 240px;           /* visible width of the panel */
-    flex: 0 0 240px;
+    width: 250px;           /* visible width of the panel */
+    flex: 0 0 250px;
     border-left: 1px solid #ccc;   /* vertical separating line from left diagram */
     background: #f8f8f8;        /* light grey background */
     padding: 10px;          /* inner spacing inside panel */
@@ -213,5 +213,5 @@ html, body {
 
     vertical-align: middle; /* aligns icon with text */
 
-    margin: 2 2px;        /* small spacing left/right */
+    margin: 4px 4px;        /* small spacing left/right */
 }
