@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2447" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="1899" dy="481" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,22 +306,22 @@
         <mxCell id="9fWoRcsrZaKOFuqFO8vI-32" parent="9fWoRcsrZaKOFuqFO8vI-33" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=1;textShadow=1;labelBorderColor=none;labelBackgroundColor=none;fillColor=#99FF99;strokeColor=#A28700;fontFamily=Helvetica;" value="GOAL" vertex="1">
           <mxGeometry height="54" width="103" as="geometry" />
         </mxCell>
-        <object label="" Description="Milestone-0: October 29, 2022&#xa;The day I arrived to Belgium to strat my studies." link="#M0" id="9fWoRcsrZaKOFuqFO8vI-34">
-          <mxCell connectable="0" parent="1" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;rotation=-180;" vertex="1">
+        <object label="" Description="When I arrived to Belgium on October 29, 2022" link="#M0" id="9fWoRcsrZaKOFuqFO8vI-38">
+          <mxCell connectable="0" parent="1" style="group" vertex="1">
             <mxGeometry height="55" width="21" x="-34.08" y="264" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="9fWoRcsrZaKOFuqFO8vI-35" parent="9fWoRcsrZaKOFuqFO8vI-34" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;fillColor=#33FF33;strokeColor=#000000;rotation=-180;" value="" vertex="1">
+        <mxCell id="9fWoRcsrZaKOFuqFO8vI-35" parent="9fWoRcsrZaKOFuqFO8vI-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;fillColor=#33FF33;strokeColor=#000000;rotation=-180;" value="" vertex="1">
           <mxGeometry height="31" width="21" as="geometry" />
         </mxCell>
-        <mxCell id="9fWoRcsrZaKOFuqFO8vI-36" edge="1" parent="9fWoRcsrZaKOFuqFO8vI-34" source="9fWoRcsrZaKOFuqFO8vI-35" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#000000;exitX=0.501;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="9fWoRcsrZaKOFuqFO8vI-36" edge="1" parent="9fWoRcsrZaKOFuqFO8vI-38" source="9fWoRcsrZaKOFuqFO8vI-35" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#000000;exitX=0.501;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="11" y="30" as="sourcePoint" />
             <mxPoint x="11" y="55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="" link="#M3" id="9fWoRcsrZaKOFuqFO8vI-37">
-          <mxCell parent="9fWoRcsrZaKOFuqFO8vI-34" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;rotation=-180;" vertex="1">
+        <UserObject label="" link="" id="9fWoRcsrZaKOFuqFO8vI-37">
+          <mxCell parent="9fWoRcsrZaKOFuqFO8vI-38" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;rotation=-180;" vertex="1">
             <mxGeometry height="12" width="12" x="5" y="4" as="geometry" />
           </mxCell>
         </UserObject>
