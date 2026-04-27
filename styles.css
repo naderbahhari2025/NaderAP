@@ -35,7 +35,7 @@ html, body {
 
 #diagramArea {
     flex: 1;            /* takes all remaining width */
-    height: 100vh;       /* full screen height */
+    /*height: 100vh;*/       /* full screen height */
     margin: 0;     
     padding: 0;          /* takes all remaining width */
     overflow: hidden;   /* prevents scrollbars */
@@ -213,5 +213,5 @@ html, body {
 
     vertical-align: middle; /* aligns icon with text */
 
-    margin: 0 4px;        /* small spacing left/right */
+    margin: 2 2px;        /* small spacing left/right */
 }
