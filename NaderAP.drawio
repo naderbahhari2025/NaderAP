@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="GxCZ86SqOdFV7QhsaR9Y">
-    <mxGraphModel dx="2741" dy="1037" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="2447" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#fbfbfb, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,7 +306,7 @@
         <mxCell id="9fWoRcsrZaKOFuqFO8vI-32" parent="9fWoRcsrZaKOFuqFO8vI-33" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=1;textShadow=1;labelBorderColor=none;labelBackgroundColor=none;fillColor=#99FF99;strokeColor=#A28700;fontFamily=Helvetica;" value="GOAL" vertex="1">
           <mxGeometry height="54" width="103" as="geometry" />
         </mxCell>
-        <object label="" Description="Milestone-3: October 29, 2022&#xa;The day I arrived to Belgium to strat my studies." link="#M0" id="9fWoRcsrZaKOFuqFO8vI-34">
+        <object label="" Description="Milestone-0: October 29, 2022&#xa;The day I arrived to Belgium to strat my studies." link="#M0" id="9fWoRcsrZaKOFuqFO8vI-34">
           <mxCell connectable="0" parent="1" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;rotation=-180;" vertex="1">
             <mxGeometry height="55" width="21" x="-34.08" y="264" as="geometry" />
           </mxCell>
