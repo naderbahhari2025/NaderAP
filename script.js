@@ -91,13 +91,15 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 
-    /* optional normal HTML link support */
+    
+    /* optional normal HTML link support 
     if (cvLink) {
         cvLink.addEventListener("click", function (e) {
             e.preventDefault();
             openCV();
         });
     }
+        */
 
     /* =========================
        Milestone Details
